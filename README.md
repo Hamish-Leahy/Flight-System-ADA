@@ -201,7 +201,7 @@ This system is suitable for:
 
 **PROPRIETARY SOFTWARE**
 
-Copyright (c) 2024 Hamish Leahy Development Group. All Rights Reserved.
+Copyright (c) 2026 Hamish Leahy Development Group. All Rights Reserved.
 
 This software is proprietary and confidential. Unauthorized copying, distribution, or use is strictly prohibited. See [LICENSE](LICENSE) for full terms.
 
