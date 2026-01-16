@@ -1,0 +1,24 @@
+# Build artifacts
+obj/
+bin/
+*.o
+*.ali
+*.o.dep
+
+# GNAT project files
+*.gpr.bak
+
+# Executables
+main
+test_*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

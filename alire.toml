@@ -1,0 +1,28 @@
+# Alire configuration for Flight Control System
+name = "ada-flight-control"
+version = "1.0.0"
+description = "Advanced Flight Control & Navigation System - Defense-grade Ada implementation"
+authors = ["Ada Learning"]
+maintainers = ["Ada Learning"]
+licenses = ["MIT"]
+website = "https://github.com/yourusername/ada-learning"
+
+# Project metadata
+project-files = ["ada_project.gpr"]
+
+# Build configuration
+[build]
+profiles.release = ["-O2", "-gnat12"]
+profiles.development = ["-g", "-gnat12", "-Wall"]
+
+# Source directories
+[source]
+directories = ["src"]
+
+# Executables
+[[executables]]
+name = "main"
+source-dirs = ["src"]
+
+# Dependencies (if any external libraries are needed in the future)
+# [depends-on]
